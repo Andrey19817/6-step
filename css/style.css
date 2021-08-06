@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*, body{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(207, 188, 188);
+}
+
+.wrapper{
+    width: 70%;
+    margin: 40px auto;
+   
+    overflow: hidden;
+}
+.new{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.operator{
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+
+.item{
+    margin: 30px;
+}
+
+.header{
+    background-color: #FFAB11;
+    height: 80px;
+    background-image: url(../img/redHeader.png);
+    position: relative;
+}
+.btn{
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+top: -14px;
+}
+.bird{
+    margin-left: 460px;
+    margin-top: -15px;
+}
+
+.nav{
+    background-color: #888;
+    height: 80px;
+    overflow: hidden;
+    line-height: 80px;
+    /* position: relative; */
+}
+
+.nav li{
+    float: right;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.nav li.active{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.nav li.phones{
+    width: 160px;
+}
+
+.nav li.phones a{
+    display: inline-block;
+}
+
+.nav a,.footer a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.al{
+    background-color: #333;
+    float: left;
+    width: 20%;
+    margin: 0 30px;
+    padding:10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.ar{
+    background-color: #333;
+    float: right;
+    width: 20%;
+    margin: 0 30px;
+    padding:10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.main{
+    background-color: red;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 10px 0 0 0;
+    text-indent: 20px;
+    text-align: justify;
+    /* overflow: scroll; */
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+/* .clear{
+    clear: both;
+} */
+
+.footer{
+    line-height: 80px;
+    background-color: #333;
+    height: 80px;
+}
+.footer li{
+    float: left;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.kart{
+    float: right;
+}
+
+.kart i{
+    color: white;
+    width: 40px;
+}
